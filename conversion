@@ -1,0 +1,21 @@
+1.	//Java Program to demonstrate the conversion of String into int  
+2.	//using Integer.parseInt() method  
+3.	public class StringToIntExample1{  
+4.	public static void main(String args[]){  
+5.	//Declaring String variable  
+6.	String s="200";  
+7.	//Converting String into int using Integer.parseInt()  
+8.	int i=Integer.parseInt(s);  
+9.	//Printing value of i  
+10.	System.out.println(i);  
+11.	}}  
+ Op= 200 
+
+Int to string 
+1.	public class IntToStringExample1{  
+2.	public static void main(String args[]){  
+3.	int i=200;  
+4.	String s=String.valueOf(i);  
+5.	System.out.println(i+100);//300 because + is binary plus operator  
+6.	System.out.println(s+100);//200100 because + is string concatenation operator  
+7.	}} 
